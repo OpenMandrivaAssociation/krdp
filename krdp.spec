@@ -27,6 +27,7 @@ BuildRequires:	cmake(Qt6Keychain)
 BuildRequires:	pkgconfig(wayland-client)
 BuildRequires:	pkgconfig(winpr3)
 BuildRequires:	pkgconfig(xkbcommon)
+BuildRequires:	cmake(KF6DBusAddons)
 BuildSystem:	cmake
 BuildOption:	-DKDE_INSTALL_USE_QT_SYS_PATHS:BOOL=ON
 
