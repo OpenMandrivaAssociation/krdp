@@ -27,6 +27,7 @@ BuildRequires:	cmake(Qt6Keychain)
 BuildRequires:	pkgconfig(wayland-client)
 BuildRequires:	pkgconfig(winpr3)
 BuildRequires:	pkgconfig(xkbcommon)
+BuildRequires:	pkgconfig(libpipewire-0.3)
 BuildRequires:	cmake(KF6DBusAddons)
 BuildRequires:	cmake(PlasmaWaylandProtocols)
 BuildSystem:	cmake
