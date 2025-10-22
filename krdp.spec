@@ -1,7 +1,7 @@
 %define devname %mklibname -d KRdp
 
 Name:		krdp
-Version:	6.4.5
+Version:	6.5.0
 Release:	1
 Source0:	https://download.kde.org/stable/plasma/%{version}/krdp-%{version}.tar.xz
 Summary:	Remote Desktop Protocol (RDP) integration for Plasma
@@ -52,6 +52,7 @@ Development files for KDE RDP integration
 %{_datadir}/applications/org.kde.krdpserver.desktop
 %{_datadir}/qlogging-categories6/kcm_krdpserver.categories
 %{_datadir}/qlogging-categories6/krdp.categories
+%{_prefix}/lib/systemd/user-preset/00-krdp.preset
 
 %files -n %{devname}
 %{_libdir}/cmake/KRdp
