@@ -1,8 +1,8 @@
 %define devname %mklibname -d KRdp
 
 Name:		krdp
-Version:	6.5.3
-Release:	2
+Version:	6.5.4
+Release:	1
 Source0:	https://download.kde.org/stable/plasma/%{version}/krdp-%{version}.tar.xz
 Summary:	Remote Desktop Protocol (RDP) integration for Plasma
 URL:		https://invent.kde.org/plasma/krdp
