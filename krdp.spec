@@ -31,6 +31,7 @@ BuildRequires:	pkgconfig(xkbcommon)
 BuildRequires:	pkgconfig(libpipewire-0.3)
 BuildRequires:	cmake(KF6DBusAddons)
 BuildRequires:	cmake(PlasmaWaylandProtocols)
+BuildRequires:	qml(org.kde.kirigamiaddons.formcard)
 BuildSystem:	cmake
 BuildOption:	-DKDE_INSTALL_USE_QT_SYS_PATHS:BOOL=ON
 
