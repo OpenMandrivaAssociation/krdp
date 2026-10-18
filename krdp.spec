@@ -54,6 +54,7 @@ Development files for KDE RDP integration
 %{_datadir}/applications/org.kde.krdpserver.desktop
 %{_datadir}/qlogging-categories6/kcm_krdpserver.categories
 %{_datadir}/qlogging-categories6/krdp.categories
+%{_datadir}/config.kcfg/krdpserversettings.kcfg
 %{_prefix}/lib/systemd/user-preset/00-krdp.preset
 
 %files -n %{devname}
